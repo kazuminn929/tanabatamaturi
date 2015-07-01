@@ -183,11 +183,11 @@ nav a:focus {
 }
 
 .kinngyo img{
-    margin-top: 200px;
-    width: 100px;
-    height: 100px;
-    margin-left: 500px;
-    
+  margin-top: 515px;
+  width: 109px;
+  height: 100px;
+  margin-left: 137px;
+}
 }
  
 @-webkit-keyframes kinngyo{
@@ -208,14 +208,14 @@ nav a:focus {
         -ms-filter:"FlipH";
             
     }
-    52%{-webkit-transform: translateX(100px) ;
+    52%{
+        -webkit-transform: translateX(100px) ;
         transform: tanslateX(100px) ;
     }
     
     
     100%{
-        
-                -webkit-transform: scale(1.0);
+         -webkit-transform: scale(1.0);
     }
 }
     .kinngyo img:hover{
