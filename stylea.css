@@ -41,7 +41,7 @@ section .inner div{
     display: block;
     width: 5px;
     height: 5px;
-    background-image: url(images/hoshi.png)
+    background-image: url(images/hoshi.png);
 }
 #hoshi .inner div.flake1,
 #hoshi .inner div.flake2,
@@ -59,7 +59,7 @@ section .inner div{
     left: 300px;
     -webkit-animation-duration: 2.4s;
     animation-duration: 2.4s;
-        -webkit-animation-delay: 90s;
+    -webkit-animation-delay: 90s;
     animation-delay: 90s;
 }
  
