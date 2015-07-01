@@ -41,7 +41,10 @@ body{
 }
 h1{
     float: left;
-    height:40px;
+    height:103px;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
 }
 nav{
     margin:20px;
@@ -69,10 +72,7 @@ nav a{
     transition: 0.5s;
     padding-top: 16px;
 }
-nav a:hover{
-    background: #fff;
-    color: #2c1212;
-}
+
 .list-album{
     overflow: hidden;
 }
@@ -121,7 +121,7 @@ nav a {
 	display: inline-block;
 	margin: 15px 25px;
 	outline: none;
-	color: #fff;
+	color: black;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -218,7 +218,7 @@ nav a:focus {
                 -webkit-transform: scale(1.0);
     }
 }
-    img:hover{
+    .kinngyo img:hover{
         -webkit-animation-name: kinngyo;
         -webkit-animation-duration: 20s;
     }

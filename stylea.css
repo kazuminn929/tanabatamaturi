@@ -1,5 +1,5 @@
 body{
-    background-color: #090405
+    background-color: #090405;
 }
 h1{
     background-color: #EDEDE7;
@@ -96,39 +96,10 @@ section .inner div{
         transform: translate(-100px,100px);
         opacity: 0.3;
     }
-.flake2{
-    left: 40px;
-    animation-duration: 2.7s;
-    animation-delay: 0.2s;
-}
-.flake3{
-    left: 60px;
-    animation-duration: 2.9s;
-    animation-delay: 0.4s;
-}
-.flake4{
-    left: 80px;
-    animation-duration: 2.4s;
-    animation-delay: 0s;
-}
-@keyflames Drop{
-    0%{
-        transform: translateY(0px);
-        opacity: 0;
-    }
-    50%{
-        transform: translateY(50px);
-        opacity: 1;
-    }
-    100%{
-        transform: rotateY(100px);
-        opacity: 0.3;
-    }
-}
 
 
  
-@keyframes Drop {
+@keyframes Drop{
     0% {
         -webkit-transform: translate(0px,0px);
         transform: translate(0px,0px);
@@ -147,8 +118,16 @@ section .inner div{
     }
 }
     #section{
-    width: 1280px;
+        width: 1280px;
         height: 100px;}
+    .container{
+        width: 1280px;
+        margin: 0 auto;
+    }
+    h5{
+        color: white;
+    }
+    
     
     
     

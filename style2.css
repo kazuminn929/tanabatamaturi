@@ -49,6 +49,17 @@ nav{
      margin: 5px;
 }
 
+.album_box img{
+    margin-top: 10px;
+    width: 200px;
+    height: 140px;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
 
+
+    
     
     
