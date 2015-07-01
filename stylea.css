@@ -5,13 +5,24 @@ h1{
     background-color: #EDEDE7;
     margin: 0px;
 }
+h3{
+    color: #fff;
+}
+
 nav{
     margin: 0px;
+}
+.album_line{
+	width: 900px;
+}
+.float_clear{
+	clear:both;
 }
 
 .album_box{
 	float: left;
-	
+	width: 200px;
+    height: 200px;
     background-color:#090405;
     margin: 20px;
     transition: 0.5s;
@@ -20,6 +31,10 @@ nav{
     transform: scale(2,2);
     
 }
+.tate{
+        width: 720px;
+        margin: 0 auto;
+    }
 .scale{
     width: 200px;
     height: 200px;
@@ -120,14 +135,6 @@ section .inner div{
     #section{
         width: 1280px;
         height: 100px;}
-    .container{
-        width: 1280px;
-        margin: 0 auto;
-    }
-    h5{
-        color: white;
-    }
-    
     
     
     
