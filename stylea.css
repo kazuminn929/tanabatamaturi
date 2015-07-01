@@ -1,0 +1,154 @@
+body{
+    background-color: #090405
+}
+h1{
+    background-color: #EDEDE7;
+    margin: 0px;
+}
+nav{
+    margin: 0px;
+}
+
+.album_box{
+	float: left;
+	
+    background-color:#090405;
+    margin: 20px;
+    transition: 0.5s;
+}
+.album_box:hover{
+    transform: scale(2,2);
+    
+}
+.scale{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.scale img{
+    transition: 0.5s;
+}
+section .inner div{
+    opacity: 0;
+    transform-origin: 0px 0px;
+    animation-name: Drop;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+#hoshi .inner div{
+    position: absolute;
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-image: url(images/hoshi.png)
+}
+#hoshi .inner div.flake1,
+#hoshi .inner div.flake2,
+#hoshi .inner div.flake3,
+#hoshi .inner div.flake4{
+    background-size: 5px 6px !important;
+}
+.flake1 {
+    left: 100px;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+}
+
+.flake2 {
+    left: 300px;
+    -webkit-animation-duration: 2.4s;
+    animation-duration: 2.4s;
+        -webkit-animation-delay: 90s;
+    animation-delay: 90s;
+}
+ 
+.flake3 {
+    left: 500px;
+    -webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    -webkit-animation-delay: 50s;
+    animation-delay: 50s;
+}
+ 
+.flake4 {
+    left: 700px;
+    -webkit-animation-duration: 1.3s;
+    animation-duration: 1.3s;
+    -webkit-animation-delay: 40s;
+    animation-delay: 40s;
+}
+@-webkit-keyframes Drop {
+    0% {
+        -webkit-transform: translate(0px,0px);
+        transform: translate(0px,0px);
+        opacity: 0;
+    }
+ 
+    50% {
+        -webkit-transform: translate(50px,50px);
+        transform: translate(-50px,50px);
+        opacity: 1;
+    }
+ 
+    100% {
+        -webkit-transform: translate(100px,100px);
+        transform: translate(-100px,100px);
+        opacity: 0.3;
+    }
+.flake2{
+    left: 40px;
+    animation-duration: 2.7s;
+    animation-delay: 0.2s;
+}
+.flake3{
+    left: 60px;
+    animation-duration: 2.9s;
+    animation-delay: 0.4s;
+}
+.flake4{
+    left: 80px;
+    animation-duration: 2.4s;
+    animation-delay: 0s;
+}
+@keyflames Drop{
+    0%{
+        transform: translateY(0px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(50px);
+        opacity: 1;
+    }
+    100%{
+        transform: rotateY(100px);
+        opacity: 0.3;
+    }
+}
+
+
+ 
+@keyframes Drop {
+    0% {
+        -webkit-transform: translate(0px,0px);
+        transform: translate(0px,0px);
+        opacity: 0;
+    }
+     50% {
+        -webkit-transform: translate(50px,50px);
+        transform: translate(50px,50px);
+        opacity: 1;
+    }
+    
+    100% {
+        -webkit-transform: translate(100px,100px);
+        transform: translate(100px,100px);
+        opacity: 0.3;
+    }
+}
+    #section{
+    width: 1280px;
+        height: 100px;}
+    
+    
+    
