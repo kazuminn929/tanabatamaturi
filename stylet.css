@@ -41,9 +41,8 @@ nav a{
 
 h1{
     float: left;
-    background-color: #EDEDE7;
-    margin-top: 0px;
-    
+  
+
 }
 *,
 *:after,
@@ -121,5 +120,10 @@ nav a:focus {
     width: 90%;
     margin:5%;
 }
+.yoko{
+        background-color: #EDEDE7;
+        height: 103px;
+    }
 
+    
 

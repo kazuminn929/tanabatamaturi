@@ -5,10 +5,7 @@ body{
     height: 1500px;
     background-image: url(images/tanabata3.jpg);
 }
-h1{
-    background-color: #EDEDE7;
-    margin-top: 0px;
-}
+
 nav{
     background-color: #EDEDE7;
     margin-top: 0px;
@@ -58,7 +55,12 @@ nav{
     width: 900px;
     margin: 0 auto;
 }
+.yoko{
+        background-color: #EDEDE7;
+        height: 103px;
+    }
 
+    
 
     
     
