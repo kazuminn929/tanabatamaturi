@@ -6,6 +6,10 @@ body{
 h3{
     color: #fff;
 }
+p{
+    color: #FFF;
+}
+    
 
 nav{
     margin: 0px;
@@ -137,7 +141,10 @@ section .inner div{
         background-color: #EDEDE7;
         height: 103px;
     }
-
+p{
+    color: #FFF;
+}
+    
     
     
     
