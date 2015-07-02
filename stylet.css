@@ -124,6 +124,10 @@ nav a:focus {
         background-color: #EDEDE7;
         height: 103px;
 }
+body{
+    margin: 0 auto;
+}
+
 
     
 
