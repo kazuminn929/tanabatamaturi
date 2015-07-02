@@ -187,7 +187,7 @@ nav a:focus {
   height: 100px;
   margin-left: 137px;
 }
-}
+
  
 @-webkit-keyframes kinngyo{
      0%{
@@ -210,6 +210,28 @@ nav a:focus {
     52%{
         -webkit-transform: translateX(100px) ;
         transform: tanslateX(100px) ;
+    }
+    
+    
+    100%{
+         -webkit-transform: scale(1.0);
+    }
+}
+@keyframes kinngyo{
+     0%{
+        -webkit-transform: scale(1.0);
+         transform: scale(1.0);
+     }
+    20%{
+        opacity: 0;
+        -webkit-transform: translateX(-100px) ;
+        transform: tanslateX(-100px) ;
+    }
+        
+    
+    22%{
+        -webkit-transform: translateX(1280px) ;
+        transform: tanslateX(1280px) ;
     }
     
     
