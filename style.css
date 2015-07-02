@@ -70,6 +70,7 @@ nav a{
     displat: block;
     transition: 0.5s;
     padding-top: 16px;
+
 }
 
 .list-album{
@@ -139,8 +140,8 @@ nav a:focus {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	width: 100px;
-	height: 100px;
+	width: 48px;
+	height: 48px;
 	border: 2px solid rgba(0,0,0,0.1);
 	border-radius: 50%;
 	content: '';
@@ -154,9 +155,9 @@ nav a:focus {
 }
 
 .cl-effect-12 a::after {
-	width: 90px;
-	height: 90px;
-	border-width: 6px;
+	width: 60px;
+	height: 60px;
+	border-width: 3px;
 	-webkit-transform: translateX(-50%) translateY(-50%) scale(0.8);
 	-moz-transform: translateX(-50%) translateY(-50%) scale(0.8);
 	transform: translateX(-50%) translateY(-50%) scale(0.8);
@@ -222,14 +223,14 @@ nav a:focus {
         -webkit-transform: scale(1.0);
          transform: scale(1.0);
      }
-    20%{
+    10%{
         opacity: 0;
         -webkit-transform: translateX(-100px) ;
         transform: tanslateX(-100px) ;
     }
         
     
-    22%{
+    11%{
         -webkit-transform: translateX(1280px) ;
         transform: tanslateX(1280px) ;
     }

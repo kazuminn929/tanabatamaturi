@@ -8,7 +8,7 @@ body{
 
 nav{
     background-color: #EDEDE7;
-    margin-top: 0px;
+    margin-top: 15px;
     margin-left: 0px;
 }
 .float_clear{
@@ -28,14 +28,14 @@ nav{
 .main{
     width: 600px;
     float: left;
-    height: 300px;
+    height:300px;
 }
 .main img{
-    width: 300px;
-    height: 300px;
-    margin-left: 100px;
+    width: 64%;
+  height: 90%;
+  margin-left: 24px;
 }
-
+    
 
 .sidebar{
     width: 290px;
@@ -59,6 +59,14 @@ nav{
         background-color: #EDEDE7;
         height: 103px;
     }
+h2{
+    margin: 0px;
+}
+p{
+    margin: 0px;
+}
+
+
 
     
 
