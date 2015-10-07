@@ -7,8 +7,13 @@ body{
 }
 
 nav{
+
+    margin-bottom: 30px;
+    overflow: hidden;
+    float: left;
+    color: black;
     background-color: #EDEDE7;
-    margin-top: 15px;
+    margin-top: 0px;
     margin-left: 0px;
 }
 .float_clear{

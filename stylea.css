@@ -13,6 +13,13 @@ p{
 
 nav{
     margin: 0px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    float: left;
+    color: black;
+    background-color: #EDEDE7;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 .album_line{
 	width: 900px;
@@ -144,7 +151,8 @@ section .inner div{
 p{
     color: #FFF;
 }
-    
+ 
+
     
     
     
